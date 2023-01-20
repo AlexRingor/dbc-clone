@@ -1,0 +1,49 @@
+[
+    {
+        "id" : "0", 
+        "name" : "Home",
+        "path" : "/",
+        "footer-nav": []
+    },
+    {
+        "id" : "1", 
+        "name" : "About",
+        "path" : "/about",
+        "footer-nav": ["Who are we", "Our history", "Our leaders"]
+    },
+
+    {
+        "id" : "2", 
+        "name" : "Brands",
+        "path" : "/brands",
+        "footer-nav": ["Offer To Own", "Conveyancing.com.au", "Rapid Building Inspections", "First Class Legal"]
+    },
+
+    {
+        "id" : "3", 
+        "name" : "Careers",
+        "path" : "/careers",
+        "footer-nav": ["Our core", "Life at DBC", "Join us"]
+    },
+
+    {
+        "id" : "4", 
+        "name" : "Partnerships",
+        "path" : "/partnerships",
+        "footer-nav": []
+    },
+
+    {
+        "id" : "5", 
+        "name" : "News",
+        "path" : "/news",
+        "footer-nav": []
+        
+    },
+
+    {
+        "id" : "6", 
+        "name" : "Contact Us",
+        "path" : "/contactus"
+    }
+]
