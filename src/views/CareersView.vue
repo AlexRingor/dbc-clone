@@ -1,22 +1,21 @@
 <script>
-import CareersContent from '../components/CareersContent.vue'
-import Hero from '@/components/Hero.vue'
-import Footer from '../components/Footer.vue';
+import CareersContent from "../components/CareersContent.vue";
+import HeroComponent from "@/components/HeroComponent.vue";
+import FooterComponent from "../components/FooterComponent.vue";
 
 export default {
   components: {
-    Hero,
+    HeroComponent,
     CareersContent,
-    Footer
-  }
-}
+    FooterComponent,
+  },
+};
 </script>
 
-
 <template>
-    <div>
-      <Hero image="careers_hero.svg"/>
-      <CareersContent/>
-      <Footer/>
-      </div>
+  <div>
+    <HeroComponent image="careers_hero.svg" />
+    <CareersContent />
+    <FooterComponent />
+  </div>
 </template>

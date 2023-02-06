@@ -1,33 +1,33 @@
 <script>
-import Hero from "../components/Hero.vue";
+import HeroComponent from "../components/HeroComponent.vue";
 import OfferToOwn from "../components/OfferToOwn.vue";
-import CityDivider from '../components/CityDivider.vue'
-import Agents from '../components/Agents.vue'
-import Buyers from "../components/Buyers.vue";
+import CityDivider from "../components/CityDivider.vue";
+import AgentsComponent from "../components/AgentsComponent.vue";
+import BuyersComponent from "../components/BuyersComponent.vue";
 import MeetTheTeamVue from "../components/MeetTheTeam.vue";
-import Footer from "../components/Footer.vue";
+import FooterComponent from "../components/FooterComponent.vue";
 
 export default {
   components: {
-    Hero,
+    HeroComponent,
     OfferToOwn,
     CityDivider,
-    Agents,
-    Buyers,
+    AgentsComponent,
+    BuyersComponent,
     MeetTheTeamVue,
-    Footer
-}
-}
+    FooterComponent,
+  },
+};
 </script>
 
 <template>
   <main>
-    <Hero image="homepage_hero.svg"/>
-    <OfferToOwn/>
-    <CityDivider/>
-    <Agents/>
-    <Buyers/>
-    <MeetTheTeamVue/>
-    <Footer/>
+    <HeroComponent image="homepage_hero.svg" />
+    <OfferToOwn />
+    <CityDivider />
+    <AgentsComponent />
+    <BuyersComponent />
+    <MeetTheTeamVue />
+    <FooterComponent />
   </main>
 </template>
