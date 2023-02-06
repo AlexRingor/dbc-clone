@@ -10,7 +10,7 @@ export default {
 
 <template>
     <div class="agents wrapper  md:flex ">
-        <div class="left-col col md:w-1/2 pl-8 pr-4">
+        <div class="left-col col md:w-1/2 px-8">
             <h6>Agents</h6>
             <h1 class="text-lg font-bold md:text-4xl ">
                 Your New Digital Offer Management & Communication Platform  

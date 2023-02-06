@@ -6,7 +6,7 @@ export default {
 </script>
 
 <template>
-    <div class="employee-profile-wrapper">
+    <div class="employee-profile-wrapper flex flex-col items-center py-4">
         <img :src="`src/assets/images/avatar/${image}`" :alt="image">
         <h5>{{ employeeName }}</h5>
         <h6>{{ jobTitle }}</h6>
@@ -17,11 +17,7 @@ export default {
 <style lang="scss" scoped>
 @import '@/assets/scss/variables';
 div.employee-profile-wrapper {
-    margin: 16px 32px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
+    
 
     img {
         width: 100px;

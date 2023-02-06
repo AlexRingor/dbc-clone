@@ -11,7 +11,7 @@ export default {
     <div class="meet-the-team">
         <h2>Offer To Own</h2>
         <h1>Meet the team</h1>
-        <div class="team-wrapper">
+        <div class="team-wrapper px-8 flex flex-col justify-between md:flex-row md:justify-around">
             <div class="col first-col">
                 <EmployeeProfileVue 
                     image="avatar_1.png" 
@@ -69,12 +69,6 @@ div.meet-the-team {
         color: $gold;
     }
 
-    div.team-wrapper {
-        display: flex;
-        justify-content: center;
-        width: 80%;
-        margin: 0 auto;
-
-    }
+    
 }
 </style>

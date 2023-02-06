@@ -15,16 +15,10 @@ export default {
 
 <template>
     <footer class="footer">
-        <div class="footer_wrapper">
+        <div class="footer_wrapper flex flex-col p-8 md:flex-row">
             <DBCVue />
             <FooterLinksVue />
         </div>
         <CopyrightVue />
     </footer>
 </template>
-
-<style lang="scss" scoped>
-footer .footer_wrapper {
-    display: flex;
-}
-</style>

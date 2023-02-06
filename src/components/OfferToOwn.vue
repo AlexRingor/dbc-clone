@@ -1,10 +1,10 @@
 <template>
-    <div class="oto wrapper px-8">
-        <div class="left-col col flex items-center m-4 md:m-8">
+    <div class="oto wrapper px-8 md:flex">
+        <div class="left-col col flex items-center py-8 md:m-8">
             <div>
                 <img src="@/assets/images/oto_logo.svg" alt="offer to own logo">
             <p>Offer to Own is a centralised digital platform that creates a new and better way to get from sale to settlement. It unites buyers, sellers and agents to enable a better buying and selling experience for everyone. While the sale-to-settlement was once a complex and inefficient process, Offer to Own is reinventing the wheel with digital solutions founded on efficiency and ease. Setting new standards, and technological innovation is at the heart of Offer to Own’s success. Offer to Own is currently available in Queensland with plans to expand across Australia in 2022.</p>
-            <div class="cta">
+            <div class="cta block md:flex">
                 <button class="team-btn text-white bg-sky-900 hover:bg-sky-100 hover:text-sky-900">Contact Team</button>
                 <button class="web-btn hover:bg-sky-100 hover:text-sky-900">Visit Website</button>
             </div>
@@ -24,9 +24,6 @@ div.oto {
     p {
         font-size: 16px;
     }
-    display: flex;
-    flex-wrap: wrap;
-
     .left-col, .right-col {
         box-sizing: border-box;
         width: 50%;

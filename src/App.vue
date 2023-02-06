@@ -37,7 +37,7 @@ export default {
             <!-- </RouterLink> -->
               <ul :class="{ showNav: mobileNav }" class="hidden bg-white z-50 w-full shadow-lg shadow-slate-400 items-left fixed flex-col md:flex-row md:flex md:item-right md:relative md:shadow-none md:justify-end">
                 <img class="ml-4 pt-4 md:hidden" alt="dbc logo" src="@/assets/images/DeepBlueCompanyLogo.svg" width="200"/>
-                  <li  class="py-4 px-2" v-for="link in routes" :key="link.id">
+                  <li @click="toggleNav" class="py-4 px-2" v-for="link in routes" :key="link.id">
                       <RouterLink class="w-full inline-block hover:bg-orange-200" :to="link.path">{{link.name}}</RouterLink>
                   </li>
               </ul>

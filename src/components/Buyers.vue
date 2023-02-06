@@ -9,7 +9,7 @@ export default {
 </script>
 
 <template>
-    <div class="buyers wrapper">
+    <div class="buyers wrapper px-8 md:px-0">
         <div class="left-col col hidden md:flex">
             <img src="@/assets/images/buyers_couple.png" alt="couple">
         </div>
@@ -63,8 +63,6 @@ div.buyers {
     display: flex;
 
     .right-col {
-        padding-right: 32px;
-        padding-left: 32px;
 
         h6 {
             margin: 32px 0 8px 0;

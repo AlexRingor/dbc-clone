@@ -1,36 +1,36 @@
 <template>
-    <div class="footer-links">
-        <div class="col">
+    <div class="footer-links flex flex-wrap sm:flex-nowrap">
+        <div class="col w-3/6 py-4">
             <div>About</div>
             <ul>
-                <li>Who are we</li>
-                <li>Our history</li>
-                <li>Our leaders</li>
+                <li><a class="hover:text-orange-200 hover:font-semibold" href="">Who are we</a></li>
+                <li><a class="hover:text-orange-200 hover:font-semibold" href="">Our history</a></li>
+                <li><a class="hover:text-orange-200 hover:font-semibold" href="">Our leaders</a></li>
             </ul>
         </div>
-        <div class="col">
+        <div class="col w-3/6 py-4">
             <div>Careers</div>
             <ul>
-                <li>Our Core</li>
-                <li>Life at DBC</li>
-                <li>Join us</li>
+                <li><a class="hover:text-orange-200 hover:font-semibold" href="">Our Core</a></li>
+                <li><a class="hover:text-orange-200 hover:font-semibold" href="">Life at DBC</a></li>
+                <li><a class="hover:text-orange-200 hover:font-semibold"  href="">Join us</a></li>
             </ul>
         </div>
-        <div class="col">
+        <div class="col w-3/6 py-4">
             <div>Brands</div>
             <ul class="links">
-                <li>Offer to Own</li>
-                <li>Conveyancing.com.au</li>
-                <li>Rapid Building Inspections</li>
-                <li>First Class Legal</li>
+                <li><a class="hover:text-orange-200 hover:font-semibold" href="">Offer to Own</a></li>
+                <li><a class="hover:text-orange-200 hover:font-semibold" href="">Conveyancing.com.au</a></li>
+                <li><a class="hover:text-orange-200 hover:font-semibold" href="">Rapid Building Inspections</a></li>
+                <li><a class="hover:text-orange-200 hover:font-semibold" href="">First Class Legal</a></li>
             </ul>
         </div>
-        <div class="col">
+        <div class="col w-3/6 py-4">
             <div>Investors</div>
             <ul>
-                <li>Shareholders</li>
-                <li>Corporate governance</li>
-                <li>Report & Resources</li>
+                <li><a class="hover:text-orange-200 hover:font-semibold" href="">Shareholders</a></li>
+                <li><a class="hover:text-orange-200 hover:font-semibold" href="">Corporate governance</a></li>
+                <li><a class="hover:text-orange-200 hover:font-semibold" href="">Report & Resources</a></li>
             </ul>
         </div>
     </div>
@@ -43,7 +43,6 @@ div.footer-links {
     width: 100%;
     box-sizing: border-box;
     display: flex;
-    margin-top: 70px;
     div.col {
         div {
             font-family: 'Roboto', sans-serif;
@@ -53,7 +52,6 @@ div.footer-links {
             line-height: 24px;
             color: $primary;
         }
-        width: calc(100%/4);
         ul {
             list-style-type: none;
             padding: 0;
@@ -67,6 +65,7 @@ div.footer-links {
                 line-height: 22px;
                 color: $gray;
                 margin-top: 16px;
+                overflow-wrap: break-word;
             }
         }
     }

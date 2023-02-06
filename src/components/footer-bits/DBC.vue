@@ -1,5 +1,5 @@
 <template>
-    <div class="footer-dbc">
+    <div class="footer-dbc pr-4 pb-8">
         <img src="@/assets/images/dbc-logo.png" alt="DBC logo">
         <p>
             The DBC group has helped more than 70,000 Australians in their sale-to-settlement journey through our family of brands
@@ -12,7 +12,6 @@
 
 <style lang="scss" scoped>
 div.footer-dbc {
-    margin: 70px;
     max-width: 500px;
     width: 100%;
     p {
@@ -22,6 +21,7 @@ div.footer-dbc {
         font-weight: 400;
         font-size: 16px;
         line-height: 24px;
+        overflow-wrap: break-word;
     }
 }
 
