@@ -1,13 +1,9 @@
 <script>
-import IconQuickOffersVue from '@/components/icons/IconQuickOffers.vue'
-import IconInstantNotifVue from '@/components/icons/IconInstantNotif.vue'
-import IconConfidenceVue from '@/components/icons/IconConfidence.vue'
+import Icon from '@/components/icons/Icon.vue'
 
 export default {
     components: {
-        IconQuickOffersVue,
-        IconInstantNotifVue,
-        IconConfidenceVue
+        Icon
     }
 }
 </script>
@@ -27,24 +23,30 @@ export default {
             </p>
             <div class="buyers-content-wrapper">
                 <div class="buyers-item">
-                    <IconQuickOffersVue/>
+                    <div>
+                        <Icon icon="icon_offers.png" alt="quick offers" width="41"/>
+                    </div>
                     <div class="text-base font-bold text-dbcblue ml-4">
                         <h3 class="mb-4 md:text-xl">Quick offers</h3>
                         <p class="text-sm md:text-base">Offer to Own makes submitting offers a simple and convenient process.</p>
                     </div>
                 </div>
                 <div class="buyers-item">
-                    <IconInstantNotifVue/>
+                    <div>
+                        <Icon icon="icon_instant_notif.png" alt="instant notifications" width="41"/>
+                    </div>
                     <div class="text-base font-bold text-dbcblue ml-4">
                         <h3 class="mb-4 md:text-xl">Instant Notifications  </h3>
-                        <p>Don’t get left in the dark, track your offer’s progress with real time notifications.</p>
+                        <p class="text-sm md:text-base">Don’t get left in the dark, track your offer’s progress with real time notifications.</p>
                     </div>
                 </div>
                 <div class="buyers-item">
-                    <IconConfidenceVue/>
+                    <div>
+                        <Icon icon="icon_confidence.png" alt="confidence" width="41"/>
+                    </div>
                     <div class="text-base font-bold text-dbcblue ml-4">
                         <h3 class="mb-4 md:text-xl">Confidence</h3>
-                        <p>Access support from a trusted conveyancing team as well as qualified building and pest inspectors .</p>
+                        <p class="text-sm md:text-base">Access support from a trusted conveyancing team as well as qualified building and pest inspectors .</p>
                     </div>
                 </div>
             </div>

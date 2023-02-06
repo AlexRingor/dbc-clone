@@ -1,15 +1,9 @@
 <script>
-import IconThumbsUp from '@/components/icons/IconThumbsUp.vue'
-import IconCloud from '@/components/icons/IconCloud.vue'
-import IconBell from '@/components/icons/IconBell.vue'
-import IconCommunications from '@/components/icons/IconCommunications.vue'
+import Icon from '@/components/icons/Icon.vue'
 
 export default {
     components: {
-        IconThumbsUp,
-        IconCloud,
-        IconBell,
-        IconCommunications
+        Icon
     }
 }
 </script>
@@ -26,28 +20,28 @@ export default {
             </p>
             <div class="agents-content-wrapper">
                 <div class="agents-item">
-                    <IconThumbsUp/>
+                    <Icon class="min-w-[45px]" icon="icon_thumbs.svg" alt="thumbs up" width="45"/>
                     <div class="text-base font-bold text-dbcblue ml-4">
                         <h3 class="mb-4 md:text-xl">Completely Free</h3>
                         <p class="text-sm md:text-base">Offer to Own is completely free. There are no hidden costs or subscription plans. Save money and keep your own costs down.</p>
                     </div>
                 </div>
                 <div class="agents-item">
-                    <IconCloud/>
+                    <Icon class="min-w-[45px]" icon="icon_cloud.svg" alt="cloud" width="45"/>
                     <div class="text-base font-bold text-dbcblue ml-4">
                         <h3 class="mb-4 md:text-xl" >CRM Integration</h3>
                         <p class="text-sm  md:text-base">Less time spent on admin, more time to focus on what really matters with a digital solution that integrates with your CRMs.</p>
                     </div>
                 </div>
                 <div class="agents-item">
-                    <IconBell/>
+                    <Icon class="min-w-[45px]" icon="icon_bell.svg" alt="bell" width="45"/>
                     <div class="text-base font-bold text-dbcblue ml-4">
                         <h3 class="mb-4 md:text-xl" >Real-time notifications</h3>
                         <p class="text-sm  md:text-base">Get updates on new offers and any updated offers with alerts in Offer to Own and push notification sent by SMS.</p>
                     </div>
                 </div>
                 <div class="agents-item">
-                    <IconCommunications/>
+                    <Icon class="min-w-[45px]" icon="icon_communication.svg" alt="communication" width="45" />
                     <div class="text-base font-bold text-dbcblue ml-4">
                         <h3 class="mb-4 md:text-xl" >Improved Communication   </h3>
                         <p class="text-sm  md:text-base">Get the best results possible through streamlined direct communication between buyers & agents.</p>
